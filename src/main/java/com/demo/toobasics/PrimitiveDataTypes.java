@@ -50,6 +50,13 @@ public class PrimitiveDataTypes {
             //System.out.println((char) i);
         }
 
+        //ASCII - 0 to 127 are ASCII values
+        for(int i = 0; i <= 127; i++){
+            System.out.println((char) i);
+        }
+
+        boolean isDone = true;
+        System.out.println(Boolean.valueOf(isDone));
 
     }
 }
